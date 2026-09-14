@@ -17,20 +17,14 @@ function About() {
         <section className="about__description">
           <h1>À propos</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat.
+            Jeune développeur web, cuisinier reconverti, je suis passionné par la création d'applications et le côté ludique du code. Une forte appétence pour les nouvelles façons de coder m'ouvre des possibilités multiples de créer de nouvelles choses. 
           </p>
         </section>
 
         <section className="about__skills">
           <h2>Mes connaissances</h2>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+           En voie de maîtrise sur des frameworks comme React, je suis tout aussi à l'aise en HTML, CSS, JS et NoSQL. Je suis également dans l'apprentissage d'Angular et de PHP. Je suis toujours en recherche de nouvelles connaissances et de nouvelles technologies à apprendre, que ce soit en termes de langages de programmation, de sécurité ou de design.
           </p>
         </section>
       </main>

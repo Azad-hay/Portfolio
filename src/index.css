@@ -1,13 +1,13 @@
 :root {
   /* Couleurs */
-  --color-bg: #1b1a1d;
-  --color-bg-alt: #242327;
+  --color-bg: #fde4a169;
+  --color-bg-alt: #383C3B;
   --color-primary: #b8530f;
   --color-primary-hover: #963f0a;
-  --color-secondary: #a78bfa;
-  --color-secondary-light: #cbb9fb;
-  --color-text: #ededed;
-  --color-text-muted: #b7b5ba;
+  --color-secondary: #290255;
+  --color-secondary-light: #150c30;
+  --color-text: #FFFF90;
+  --color-text-muted: #FFFF90;
 
 
 
@@ -66,11 +66,12 @@ img {
 
 .navbar {
   flex-shrink: 0;
-  height: 100px;
+  height: 75px;
   background-color: var(--color-primary);
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 0 0 10px 10px;
 }
 
 .navbar__nav {
@@ -81,27 +82,42 @@ img {
   height: 100%;
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: 8rem;
+  
 }
 
 .navbar__link {
-  font-size: 0.7rem;
+  font-size: 1.2rem;
   color: var(--color-text);
+  display: inline-block;
 }
 
 .navbar__link.active {
-  color: var(--color-secondary-light);
+  color: #000;
+}
+.navbar__link:hover {
+  animation: navbar-spin 0.6s ease;
+}
+
+@keyframes navbar-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* ---------- Footer ---------- */
 
 .footer {
   flex-shrink: 0;
-  height: 100px;
+  height: 40px;
   background-color: var(--color-bg-alt);
   display: flex;
   align-items: center;
   padding: 0 var(--space-sm);
+  border-radius: 10px 10px 0 0;
 }
 
 .footer__spacer {
@@ -111,14 +127,14 @@ img {
 .footer__link {
   flex: 1;
   text-align: center;
-  font-size: 0.65rem;
-  color: var(--color-secondary-light);
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
 }
 
 .footer__copyright {
   flex: 1;
   text-align: right;
-  font-size: 0.6rem;
+  font-size: 1rem;
   color: var(--color-text-muted);
 }
 
@@ -149,12 +165,33 @@ img {
 
 .home__intro {
   max-width: 65ch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  align-self: center;
+  margin-top: 250px;
+
+  h1 {
+    font-size: 4rem;
+    color: var(--color-primary);
+    text-shadow: 2px 2px 4px rgba(253, 237, 3, 0.801);
+    margin-left: -5rem;
+  }
+
+  
+}
+.home__description {
+  font-size: 1.5rem;
+  color: var(--color-primary);
+  text-align: center;
 }
 
 .home__cta {
-  margin-top: auto;
+  margin-top: 250px;
   margin-bottom: var(--space-lg);
   align-self: center;
+  width: 100%;
+  max-width: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -162,6 +199,11 @@ img {
   background-color: var(--color-bg-alt);
   border-radius: 16px;
   padding: var(--space-lg) var(--space-xl);
+
+  .button {
+    background-color: var(--color-bg);
+    color:#fff;
+  }
 }
 
 .home__cta-text {
@@ -205,6 +247,11 @@ img {
   flex-direction: column;
   gap: var(--space-xl);
   padding: var(--space-lg);
+
+  p {
+    font-size: 1.1rem;
+    color: var(--color-primary);
+  }
 }
 
 .about__photo-section {
@@ -217,7 +264,7 @@ img {
   width: 180px;
   height: 180px;
   border-radius: 8px;
-  background-color: var(--color-bg-alt);
+  background-color: var(--color-primary);
 }
 
 .about__description,
@@ -225,15 +272,30 @@ img {
   display: flex;
   flex-direction: column;
   gap: var(--space-xs);
-  max-width: 65ch;
+  max-width: calc(100% - 650px);
 }
 
 .about__description h1,
 .about__skills h2 {
-  color: var(--color-secondary-light);
+  color: var(--color-primary);
+  
 }
 
-/* ---------- Pages Projets / Contact (à compléter) ---------- */
+.about__description h1{
+  margin-left:20rem;
+}
+.about__description p{
+  margin-left:25rem;
+  
+}
+.about__skills h2{
+  margin-left:30rem;
+}
+.about__skills p{
+  margin-left:35rem;
+}
+
+/* ---------- Pages Projets / Contact  ---------- */
 
 .projects__main,
 .contact__main {
