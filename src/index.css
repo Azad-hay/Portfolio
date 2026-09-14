@@ -9,9 +9,7 @@
   --color-text: #ededed;
   --color-text-muted: #b7b5ba;
 
-  /* Dimensions */
-  --navbar-height: 25px;
-  --footer-height: 15px;
+
 
   /* Espacements */
   --space-xs: 0.5rem;
@@ -68,7 +66,7 @@ img {
 
 .navbar {
   flex-shrink: 0;
-  height: var(--navbar-height);
+  height: 100px;
   background-color: var(--color-primary);
   display: flex;
   align-items: center;
@@ -99,7 +97,7 @@ img {
 
 .footer {
   flex-shrink: 0;
-  height: var(--footer-height);
+  height: 100px;
   background-color: var(--color-bg-alt);
   display: flex;
   align-items: center;
