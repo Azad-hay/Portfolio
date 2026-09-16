@@ -22,9 +22,7 @@ function Projects() {
               className="project-card project-card-kyoto"
               style={{ backgroundImage: `url(${kyotoImage})` }}
             >
-              <h2 className="project-card__title">
-                Kyoto Project
-              </h2>
+              
 
               <div className="project-buttons">
                 <a
@@ -48,6 +46,9 @@ function Projects() {
             </div>
 
             <div className="project-description">
+              <h2 className="project-card__title">
+                Kyoto Project
+              </h2>
               <p>
                 Mise en pratique des bases d’HTML et CSS avec plusieurs
                 techniques de mise en page et de pagination. Projet personnel
@@ -62,9 +63,7 @@ function Projects() {
               className="project-card project-card-nina"
               style={{ backgroundImage: `url(${ninaImage})` }}
             >
-              <h2 className="project-card__title">
-                Nina Carducci
-              </h2>
+              
 
               <div className="project-buttons">
                 <a
@@ -88,6 +87,9 @@ function Projects() {
             </div>
 
             <div className="project-description">
+              <h2 className="project-card__title">
+                Nina Carducci
+              </h2>
               <p>
                 Mise en œuvre des bonnes pratiques de SEO ainsi que correction
                 de quelques bugs JavaScript afin d’améliorer le référencement
@@ -103,9 +105,7 @@ function Projects() {
               className="project-card project-card-kasa"
               style={{ backgroundImage: `url(${kasaImage})` }}
             >
-              <h2 className="project-card__title">
-                KASA
-              </h2>
+              
 
               <div className="project-buttons">
                 <a
@@ -129,6 +129,9 @@ function Projects() {
             </div>
 
             <div className="project-description">
+              <h2 className="project-card__title">
+                KASA
+              </h2>
               <p>
                 Projet essentiellement basé sur React, Sass et Vite.
                 Utilisation des composants, des props et du routage pour

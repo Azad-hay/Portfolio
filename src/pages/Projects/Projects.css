@@ -39,15 +39,17 @@
 .project-card__title {
   color: var(--color-primary);
   font-size: 1.5rem;
-   margin-top: 300px;
+   margin-top: 30px;
   
 }
 
 .project-description {
   color: var(--color-primary);
-  
   height: 100%;
   margin-top: 20px;
+  p{
+    margin-top: 20px;
+  }
 }
 
 .project-card__link {
@@ -63,7 +65,7 @@
 .project-buttons {
   display: flex;
   gap: var(--space-md);
-  margin-top: 40px;
+  margin-top: 340px;
 }
 
 .project-card {
