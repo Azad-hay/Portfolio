@@ -12,11 +12,11 @@ function Projects() {
         <div className="projects__list">
           <section className="project-card">
             <div className="project-card__image" role="img" aria-label="Aperçu du projet 1"></div>
-            <h2 className="project-card__title">Nom du projet 1</h2>
+            <h2 className="project-card__title">Kyoto Project</h2>
             <p className="project-card__description">
-              Courte description du projet : ce qu'il fait, les technologies utilisées et le problème qu'il résout.
+              Projet personnel, mise en pratique de HTML et CSS avec plusieurs techniques de mise en pages et de paginations.
             </p>
-            <a href="#" className="button project-card__link">Voir le projet</a>
+            <a href="https://azad-hay.github.io/Kyoto_Project/#contact" className="button project-card__link">Voir le projet</a>
           </section>
 
           <section className="project-card">
