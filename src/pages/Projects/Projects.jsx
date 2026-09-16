@@ -17,25 +17,27 @@ function Projects() {
               Projet personnel, mise en pratique de HTML et CSS avec plusieurs techniques de mise en pages et de paginations.
             </p>
             <a href="https://azad-hay.github.io/Kyoto_Project/#home" className="button project-card__link">Voir le projet</a>
-            <a href="https://github.com/Azad-hay/Kyoto_Project" className="button project-card__link">Voir le code</a>
+            <a href="https://github.com/Azad-hay/Kyoto_Project" >Voir le code</a>
           </section>
 
           <section className="project-card">
             <div className="project-card__image" role="img" aria-label="Aperçu du projet 2"></div>
-            <h2 className="project-card__title">Nom du projet 2</h2>
+            <h2 className="project-card__title">Nina Carducci</h2>
             <p className="project-card__description">
-              Courte description du projet : ce qu'il fait, les technologies utilisées et le problème qu'il résout.
+              Mise en oeuvres des bonnes pratiques de SEO ainsi que correctif de quelques bug sur le dynamisme du site. Projet réalisé durant la formation Développeur Web  Openclassrooms.
             </p>
-            <a href="#" className="button project-card__link">Voir le projet</a>
+            <a href="https://azad-hay.github.io/OP_SEO/" >Voir le projet</a>
+            <a href="https://github.com/Azad-hay/OP_SEO" >Voir le code</a>
           </section>
 
           <section className="project-card">
             <div className="project-card__image" role="img" aria-label="Aperçu du projet 3"></div>
-            <h2 className="project-card__title">Nom du projet 3</h2>
+            <h2 className="project-card__title">KASA</h2>
             <p className="project-card__description">
-              Courte description du projet : ce qu'il fait, les technologies utilisées et le problème qu'il résout.
+              Projet essentillement basé sur React et Vite. Utilisation des components, des props et du routage. Projet réalisé durant la formation Développeur Web  Openclassrooms.
             </p>
-            <a href="#" className="button project-card__link">Voir le projet</a>
+            <a href="https://azad-hay.github.io/" >Voir le projet</a>
+            <a href="https://github.com/Azad-hay/React_project" >Voir le code</a>
           </section>
         </div>
       </main>
