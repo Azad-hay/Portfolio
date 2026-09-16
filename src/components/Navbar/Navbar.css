@@ -1,0 +1,43 @@
+.navbar {
+  flex-shrink: 0;
+  height: 75px;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.navbar__nav {
+  height: 100%;
+}
+
+.navbar__list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.navbar__link {
+  font-size: 1.2rem;
+  color: var(--color-text);
+  display: inline-block;
+}
+
+.navbar__link.active {
+  color: #000;
+}
+
+.navbar__link:hover {
+  animation: navbar-spin 0.6s ease;
+}
+
+@keyframes navbar-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,26 @@
+.not-found__main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  padding: var(--space-lg);
+  text-align: center;
+}
+
+.not-found__code {
+  font-size: 6rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.not-found__text {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+}
+
+.not-found__link {
+  margin-top: var(--space-sm);
+  color: var(--color-secondary-light);
+}

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
-import Navbar from '../components/Navbar.jsx'
-import Footer from '../components/Footer.jsx'
+import Navbar from '../../components/Navbar/Navbar.jsx'
+import Footer from '../../components/Footer/Footer.jsx'
+import './Home.css'
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
         <section className="home__intro">
           <h1 className="home__title">Azad Guiraud</h1>
           <p className="home__description">
-            Venez à la découverte d'une partie de mon monde.
+            Venez découvrir une partie de mon monde.
           </p>
         </section>
 

@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -14,5 +16,9 @@
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
-    "@vitej    "@vitejs/plugin-react": "^4.7.0",
-    "vite": "^5.4.21"
+    "@vitejs/plugin-react": "^4.3.1",
+    "gh-pages": "^6.3.0",
+    "vite": "^5.4.8"
+  }
+  
+}
