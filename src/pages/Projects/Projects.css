@@ -48,4 +48,15 @@
 .project-card__link {
   align-self: flex-start;
   margin-top: var(--space-xs);
+
 }
+
+.project-card__link:hover {
+  text-decoration: underline;
+  box-shadow: 0 0 10px var(--color-primary);
+}
+.project-buttons {
+  display: flex;
+  gap: var(--space-md);
+}
+

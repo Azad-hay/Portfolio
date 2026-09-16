@@ -16,9 +16,11 @@ function Projects() {
             <p className="project-card__description">
               Projet personnel, mise en pratique de HTML et CSS avec plusieurs techniques de mise en pages et de paginations.
             </p>
-            <a href="https://azad-hay.github.io/Kyoto_Project/#home" className="button project-card__link">Voir le projet</a>
-            <a href="https://github.com/Azad-hay/Kyoto_Project"
-            className="button project-card__link" >Voir le code</a>
+            <div className='project-buttons'>
+              <a href="https://azad-hay.github.io/Kyoto_Project/#home" className="button project-card__link" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              <a href="https://github.com/Azad-hay/Kyoto_Project"
+                className="button project-card__link" target="_blank" rel="noopener noreferrer">Voir le code</a>
+            </div>
           </section>
 
           <section className="project-card">
@@ -27,8 +29,10 @@ function Projects() {
             <p className="project-card__description">
               Mise en oeuvres des bonnes pratiques de SEO ainsi que correctif de quelques bug sur le dynamisme du site. Projet réalisé durant la formation Développeur Web  Openclassrooms.
             </p>
-            <a href="https://azad-hay.github.io/OP_SEO/" className="button project-card__link">Voir le projet</a>
-            <a href="https://github.com/Azad-hay/OP_SEO" className="button project-card__link">Voir le code</a>
+            <div className='project-buttons'>
+              <a href="https://azad-hay.github.io/OP_SEO/" className="button project-card__link" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+              <a href="https://github.com/Azad-hay/OP_SEO" className="button project-card__link" target="_blank" rel="noopener noreferrer">Voir le code</a>
+            </div>
           </section>
 
           <section className="project-card">
@@ -37,8 +41,11 @@ function Projects() {
             <p className="project-card__description">
               Projet essentillement basé sur React et Vite. Utilisation des components, des props et du routage. Projet réalisé durant la formation Développeur Web  Openclassrooms.
             </p>
-            <a href="https://azad-hay.github.io/" className="button project-card__link">Voir le projet</a>
-            <a href="https://github.com/Azad-hay/React_project" className="button project-card__link">Voir le code</a>
+            <div className='project-buttons'>
+
+            <a href="https://azad-hay.github.io/" className="button project-card__link" target="_blank" rel="noopener noreferrer">Voir le projet</a>
+            <a href="https://github.com/Azad-hay/React_project" className="button project-card__link" target="_blank" rel="noopener noreferrer">Voir le code</a>
+            </div>
           </section>
         </div>
       </main>

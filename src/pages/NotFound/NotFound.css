@@ -17,10 +17,11 @@
 
 .not-found__text {
   font-size: 1rem;
-  color: var(--color-text-muted);
+  color: var(--color-secondary-light);
 }
 
 .not-found__link {
   margin-top: var(--space-sm);
   color: var(--color-secondary-light);
+  text-decoration: underline;
 }

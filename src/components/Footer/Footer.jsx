@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer__spacer" aria-hidden="true"></div>
       <Link to="/contact" className="footer__link">
-        Contact
+        Contacts
       </Link>
       <p className="footer__copyright">© 2026 Guiraud Azad</p>
     </footer>
