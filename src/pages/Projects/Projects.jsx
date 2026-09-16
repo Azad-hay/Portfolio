@@ -16,7 +16,8 @@ function Projects() {
             <p className="project-card__description">
               Projet personnel, mise en pratique de HTML et CSS avec plusieurs techniques de mise en pages et de paginations.
             </p>
-            <a href="https://azad-hay.github.io/Kyoto_Project/#contact" className="button project-card__link">Voir le projet</a>
+            <a href="https://azad-hay.github.io/Kyoto_Project/#home" className="button project-card__link">Voir le projet</a>
+            <a href="https://github.com/Azad-hay/Kyoto_Project" className="button project-card__link">Voir le code</a>
           </section>
 
           <section className="project-card">
