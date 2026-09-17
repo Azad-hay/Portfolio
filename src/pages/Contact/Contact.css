@@ -61,3 +61,71 @@
 .item_phone {
   margin-left: 200px;
 }
+
+/* ---------- Responsive : Tablette (768px - 1024px) ---------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact__main {
+    margin-top: 120px;
+  }
+
+  .contact__title {
+    font-size: 2.5rem;
+  }
+
+  .contact__icon-square {
+    width: 44px;
+    height: 44px;
+  }
+
+  .contact__icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .item_email {
+    margin-left: -40px;
+  }
+
+  .item_discord {
+    margin-left: 30px;
+  }
+
+  .item_phone {
+    margin-left: 80px;
+  }
+}
+
+/* ---------- Responsive : Mobile (320px - 768px) ---------- */
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .contact__main {
+    margin-top: 60px;
+    padding: var(--space-md);
+  }
+
+  .contact__title {
+    font-size: 1.8rem;
+  }
+
+  .contact__item {
+    font-size: 0.9rem;
+    gap: var(--space-sm);
+  }
+
+  .contact__icon-square {
+    width: 36px;
+    height: 36px;
+  }
+
+  .contact__icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .item_email,
+  .item_discord,
+  .item_phone {
+    margin-left: 0;
+  }
+}

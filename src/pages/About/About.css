@@ -58,3 +58,81 @@
 .about__skills p {
   margin-left: 35rem;
 }
+
+/* ---------- Responsive : Tablette (768px - 1024px) ---------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .about__photo {
+    width: 180px;
+    height: 180px;
+    margin-right: 4rem;
+  }
+
+  .about__description,
+  .about__skills {
+    max-width: calc(100% - 200px);
+  }
+
+  .about__description h1 {
+    margin-left: 4rem;
+    font-size: 1.6rem;
+  }
+
+  .about__description p {
+    margin-left: 5rem;
+    font-size: 1rem;
+  }
+
+  .about__skills h2 {
+    margin-left: 6rem;
+    font-size: 1.3rem;
+  }
+
+  .about__skills p {
+    margin-left: 7rem;
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Responsive : Mobile (320px - 779px) ---------- */
+
+@media (min-width: 320px) and (max-width: 779px) {
+  .about__photo-section {
+    justify-content: center;
+  }
+
+  .about__photo {
+    width: 120px;
+    height: 120px;
+    margin-right: 0;
+  }
+
+  .about__main p {
+    font-size: 0.9rem;
+  }
+
+  .about__description,
+  .about__skills {
+    max-width: 100%;
+  }
+
+  .about__description h1 {
+    margin-left: 0;
+    font-size: 1.4rem;
+  }
+
+  .about__description p {
+    margin-left: 0;
+    font-size: 0.85rem;
+  }
+
+  .about__skills h2 {
+    margin-left: 0;
+    font-size: 1.2rem;
+  }
+
+  .about__skills p {
+    margin-left: 0;
+    font-size: 0.85rem;
+  }
+}

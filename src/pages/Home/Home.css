@@ -51,3 +51,50 @@
 .home__cta-text {
   font-size: 1.1rem;
 }
+
+/* ---------- Responsive : Tablette (768px - 1024px) ---------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .home__intro {
+    margin-top: 120px;
+  }
+
+  .home__intro h1 {
+    font-size: 2.75rem;
+    margin-left: -2rem;
+  }
+
+  .home__description {
+    font-size: 1.2rem;
+  }
+
+  .home__cta {
+    margin-top: 120px;
+  }
+}
+
+/* ---------- Responsive : Mobile (320px - 768px) ---------- */
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .home__intro {
+    margin-top: 60px;
+  }
+
+  .home__intro h1 {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .home__description {
+    font-size: 1rem;
+  }
+
+  .home__cta {
+    margin-top: 60px;
+    padding: var(--space-md) var(--space-lg);
+  }
+
+  .home__cta-text {
+    font-size: 0.95rem;
+  }
+}

@@ -25,3 +25,27 @@
   color: var(--color-secondary-light);
   text-decoration: underline;
 }
+
+/* ---------- Responsive : Tablette (768px - 1024px) ---------- */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .not-found__code {
+    font-size: 4.5rem;
+  }
+
+  .not-found__text {
+    font-size: 0.9rem;
+  }
+}
+
+/* ---------- Responsive : Mobile (320px - 768px) ---------- */
+
+@media (min-width: 320px) and (max-width: 779px) {
+  .not-found__code {
+    font-size: 3rem;
+  }
+
+  .not-found__text {
+    font-size: 0.85rem;
+  }
+}

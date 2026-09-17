@@ -9,6 +9,7 @@
   --color-text: #FFFF90;
   --color-text-muted: #FFFF90;
   --color-anthracite: #374151;
+  --color-gray: #808080;
 
   /* Espacements */
   --space-xs: 0.5rem;
@@ -74,4 +75,20 @@ img {
 
 .button:hover {
   background-color: var(--color-primary-hover);
+}
+
+/* ---------- Responsive : bouton générique ---------- */
+
+@media (min-width: 780px) and (max-width: 1024px) {
+  .button {
+    font-size: 0.85rem;
+    padding: var(--space-xs) var(--space-md);
+  }
+}
+
+@media (min-width: 320px) and (max-width: 779px) {
+  .button {
+    font-size: 0.8rem;
+    padding: var(--space-xs) var(--space-sm);
+  }
 }
