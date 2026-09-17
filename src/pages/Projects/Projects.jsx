@@ -2,9 +2,9 @@ import Navbar from '../../components/Navbar/Navbar.jsx'
 import Footer from '../../components/Footer/Footer.jsx'
 import './Projects.css'
 
-import kyotoImage from '../../assets/Kyoto.png'
-import ninaImage from '../../assets/Carducci.png'
-import kasaImage from '../../assets/Kasa.png'
+import kyotoImage from '../../assets/Kyoto.avif'
+import ninaImage from '../../assets/Carducci.avif'
+import kasaImage from '../../assets/Kasa.avif'
 
 function Projects() {
   return (
@@ -20,7 +20,8 @@ function Projects() {
           <section className="project">
             <div
               className="project-card project-card-kyoto"
-              style={{ backgroundImage: `url(${kyotoImage})` }}
+              style={{ backgroundImage: `url(${kyotoImage})` }} fetchpriority="high"
+              alt='Image du projet Kyoto'
             >
               
 
@@ -62,6 +63,7 @@ function Projects() {
             <div
               className="project-card project-card-nina"
               style={{ backgroundImage: `url(${ninaImage})` }}
+              alt='Image du projet Nina Carducci' 
             >
               
 
@@ -104,6 +106,7 @@ function Projects() {
             <div
               className="project-card project-card-kasa"
               style={{ backgroundImage: `url(${kasaImage})` }}
+              alt='Image du projet Kasa'
             >
               
 

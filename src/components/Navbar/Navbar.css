@@ -20,13 +20,13 @@
 }
 
 .navbar__link {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: var(--color-text);
   display: inline-block;
 }
 
 .navbar__link.active {
-  color: #000;
+  color: #383C3B;
 }
 
 .navbar__link:hover {

@@ -1,6 +1,7 @@
 import Navbar from '../../components/Navbar/Navbar.jsx'
 import Footer from '../../components/Footer/Footer.jsx'
 import './About.css'
+import azpic from '../../assets/AZ.jpg'
 
 function About() {
   return (
@@ -12,13 +13,15 @@ function About() {
             className="about__photo"
             role="img"
             aria-label="Photo de profil"
-          ></div>
+          >
+            <img src={azpic} alt="Photo de profil " />
+          </div>
         </section>
 
         <section className="about__description">
           <h1>À propos</h1>
           <p>
-            Jeune développeur web, cuisinier reconverti, je suis passionné par la création d'applications et le côté ludique du code. Une forte appétence pour les nouvelles façons de coder m'ouvre des possibilités multiples de créer de nouvelles choses.
+            Jeune développeur Strasbourgeois, cuisinier reconverti, je suis passionné par la création d'applications et le côté ludique du code. Une forte appétence pour les nouvelles façons de coder m'ouvre des possibilités multiples de créer de nouvelles choses.
           </p>
         </section>
 
